@@ -1,3 +1,3 @@
 struct FFSAuthenticator {
-    var text = "Hello, World!"
+    var text = "FFSAuthenticator"
 }

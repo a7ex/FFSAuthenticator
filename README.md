@@ -3,7 +3,7 @@
 This library provides a mechanism to authenticate requests. In simple words: Add the required headers to the request.
 It is heavily inspired by the Heimdallr OAuth2 Library. (Find the original here: https://github.com/trivago/Heimdallr.swift/tree/master/Heimdallr)
 
-First login to the backend in order to get a token. This token is stored securely in the keychain. It is always read directly form the keychain. No sensible data is not kept in instance variables. Accessing the keychain everytime is safer, but a tad slower.
+First login to the backend in order to get a token. This token is stored securely in the keychain. It is always read directly from the keychain. No sensible data is not kept in instance variables. Accessing the keychain everytime is safer, but a tad slower.
 
 ## Usage
 
